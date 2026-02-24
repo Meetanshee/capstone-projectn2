@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+hr{
+  border: dotted #aed2d2 6px;
+    border-bottom: none;
+    width: 4%;
+    margin:  auto;
+}
+
+.intro{
+    background-image: url("background.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+text-align: center;
+}
+.text h1{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 37px;
+  color:#3e4772;
+}
+.text h2{
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-weight: 600;
+  font-size: 25px;
+  color:#434E78;
+}
+.resume{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-image: url("background2.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.data{
+text-align: center;
+}
+.data img{
+    height:210px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid black;
+    float: left;
+}
+.data h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    color:#66bfbf;
+    margin-top: 20px;
+}
+.a{
+ position: relative;
+    
+}
+span{
+    position: absolute;
+    
+}
+.data h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 400;
+    color:black;;
+    margin-top: 20px;
+}
+.skills{
+    height: 100vh;
+    text-align: center;
+}
+.bigcontainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ h1{
+font-family: "Edu VIC WA NT Beginner", cursive;
+  font-weight: 600;
+  font-size: 35px;
+  color:#66bfbf;
+  margin-top: 20px;
+  text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+   text-align: left;
+   width: 50%;
+   margin: 100px auto 0 auto;
+   row-gap: 5px;
+  
+}
+.grid .title{
+    margin-top: 45px;
+}
+.title h2{
+    margin-bottom: 1px;
+    color:#66bfbf;
+    text-decoration: overline underline #3e4772;
+    text-decoration-style: wavy;
+}
+.contact{
+    height: 100vh;
+}
+.contact h1{
+   font-family:"Montserrat", sans-serif;;
+   margin-bottom: 50px;
+       font-size: 2.5rem;
+    font-weight: normal;
+}
+.white{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    height:80%;
+}
+.contact h2{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.contact p{
+    font-size: 1.2rem;
+   color: rgb(64, 81, 78);
+  font-family:  Merriweather, serif;
+  width:38%;
+  text-align: center;
+  margin: 0px auto 0 auto;
+}
+.white a{
+    margin: 80px auto 0 auto;
+    width:200px;
+    height:70px;
+    background-color: #42a8a8;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.blue{
+    background-color: rgb(102, 191, 191);
+    height: 20%;
+}
+.blue .links{
+   padding: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap:15px;
+}
+.blue .footer-link{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: large;
+}
